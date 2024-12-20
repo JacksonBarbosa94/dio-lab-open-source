@@ -1,0 +1,30 @@
+/* Estado febril ou febrícula: Temperatura entre 37,3°C e 37,8°C
+Febre moderada: Temperatura entre 37,8°C e 38,9°C
+Pirexia ou febre alta: Temperatura entre 39°C e 40°C
+Hiperpirexia ou febre muito alta: Temperatura acima de 40°C 
+*/ 
+
+let temperatura = 37
+
+
+
+
+if (temperatura >= 37.3 & temperatura <= 37.8) {
+    console.log("Você está em estado Febril ou febrícula");
+    
+}else if (temperatura >= 37.9 && temperatura <= 38.9) {
+    console.log("Você está com febre moderada ou está com febre");
+    
+}else if (temperatura >=  39 & temperatura <= 40) {
+    console.log("Você esté com pirexia ou febre alta");
+    
+}else if (temperatura > 40) {
+    console.log("Você está com hiperpirexia ou febre muito alta");
+    
+} else if(temperatura >= 35 && temperatura <= 37.2){
+    console.log("Você está com a temperatura normal");
+    
+}if (temperatura < 35) {
+    console.log("Você está com hipotemia");
+    
+} 
